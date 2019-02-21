@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="UO.css" type="text/css">
+  <link rel="shortcut icon" href="../Pictures/HeadLogoSBLive.ico" />
+  <title>Ukentlig Oddstips - SBLive</title>
+</head>
+
+<body>
+
+  <header>
+
+    <img src="../pictures/LogoSBlive.png" alt="Logo" class="Logo">
+
+    <h1><a href="../index.html"> ScoreBoard Live! </a></h1>
+
+
+    <nav class="dropdown">
+      <ul>
+        <li><a href=""> For mere </a><img src="../pictures/dropdownbox.png" alt="DROPDOWN" class="dropdownimg"
+            width="10%" style="vertical-align:middle">
+          <ul>
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="#">Innstillinger</a></li>
+            <li><a href="#">Ukentlig Oddstips</a></li>
+            <li><a href="OmOss.html">Om Oss</a></li>
+            <li><a href="Lagene.html">Lagene</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+    <form>
+      <input type="search" id="mySearch" name="searchengine" placeholder="Search the site...">
+      <button>Search</button>
+    </form>
+  </header>
+
+  <section>
+
+    <article class="Oddstips">
+
+      <h2>Ukentlig Oddstips</h2>
+
+      <article class="kamptips">
+        <h4>Tips 1:</h4>
+        <p>Manchester United - Liverpool
+          <br>
+          Both teams to score
+          <br>
+          (1.69 at CoolBet)
+        </p>
+      </article>
+      <div id="timer1" class="Timer"></div>
+
+      <hr>
+
+      <article class="kamptips">
+        <h4>Tips 2:</h4>
+        <p>Manchester United - Liverpool
+          <br>
+          Both teams to score
+          <br>
+          (1.69 at CoolBet)
+        </p>
+      </article>
+      <div id="timer2" class="Timer"></div>
+
+      <hr>
+
+      <article class="kamptips">
+        <h4>Tips 3:</h4>
+        <p>Manchester United - Liverpool
+          <br>
+          Both teams to score
+          <br>
+          (1.69 at CoolBet)
+        </p>
+      </article>
+      <div id="timer3" class="Timer"></div>
+
+      <hr>
+
+      <article class="kamptips">
+        <h4>Tips 4:</h4>
+        <p>Manchester United - Liverpool
+          <br>
+          Both teams to score
+          <br>
+          (1.69 at CoolBet)
+        </p>
+      </article>
+      <div id="timer4" class="Timer"></div>
+
+    </article>
+
+    <aside class="twitter-odds">
+      <a class="twitter-timeline" data-height="900" data-width="99%"
+        href="https://twitter.com/pinchbet?ref_src=twsrc%5Etfw">Tweets by pinchbet</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+  </section>
+
+  <footer>
+    <small>&copy; 2019 ScoreBoard Live - All Rights Reserved.</small>
+  </footer>
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 12, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("kamp1").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("kamp1").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+  <script>
+    // Set the date we're counting down to
+    function timer(date) {
+      var countDownDate = new Date(date).getTime();
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance >= 0) {
+        return "Kampen starter om: " + days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+      }
+
+      else {
+        return "Utgått";
+      }
+    }
+
+    setInterval(function () {
+      document.getElementById("timer1").innerHTML = timer("Jan 5, 2021 15:37:25");
+      document.getElementById("timer2").innerHTML = timer("Feb 20, 2019 13:00");
+      document.getElementById("timer3").innerHTML = timer("Feb 19, 2019 13:00");
+      document.getElementById("timer4").innerHTML = timer("Feb 21, 2019 13:00");
+    }, 1000);
+  </script>
+
+</body>
+
+</html>

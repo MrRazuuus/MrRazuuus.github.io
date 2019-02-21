@@ -1,0 +1,138 @@
+header{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+    justify-content: space-around;
+    border-color: black;
+    background-color: rgb(42, 122, 120);
+    font-family: verdana;
+  }
+  
+  .Logo{
+    width: 6%;
+    height: 6%;
+    order: 1;
+  }
+  
+  h1{
+    white-space: nowrap;
+    order: 2;
+    width: 70%;
+    justify-content: flex-start;
+  }
+  
+  h1 a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .dropdown{
+    order: 4;
+    width: 30%;
+    height: auto;
+    position: relative;
+  }
+  
+  nav ul li img{
+    height: 50%;
+    width: 10%;
+  }
+  
+  nav ul li ul{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: #2a7a78;
+  }
+  
+  nav ul li{
+    position: relative;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li:hover ul{
+    display: block;
+  }
+  
+  nav ul li ul li{
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  nav ul li ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li ul li:hover{
+    background-color: #74c7b9;
+  }
+  
+  form{
+    order: 3;
+    width: 32%;
+    border: none;
+    font-size: 17px;
+  }
+  
+  #mySearch{
+    width: 70%;
+    height: 30px;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  footer{
+    background-color: rgba(42, 122, 120, 1);
+     border-style: solid;
+     border-width: 1px;
+  }
+  
+  section{
+    display: flex;
+    justify-content: space-around;
+    background-color:#292f33d4;
+  }
+  
+  article{
+    width: 64%;
+    order: 1;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 1%;
+    margin: 0.5%;
+  }
+
+  article h2{
+    text-align: center;
+  }
+  
+  aside{
+    width: 32%;
+    order: 2;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1%;
+    margin: 0.5%;
+  }
+  
+  hr{
+  margin: 5%;
+  }
+  
