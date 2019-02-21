@@ -8,25 +8,25 @@ header{
     background-color: rgba(42, 122, 120, 1);
     font-family: verdana;
   }
-  
+
   .Logo{
     width: 6%;
     height: 6%;
     order: 1;
   }
-  
+
   h1{
     white-space: nowrap;
     order: 2;
     width: 70%;
     justify-content: flex-start;
   }
-  
+
   h1 a{
     text-decoration: none;
     color: white;
   }
-  
+
   .dropdown{
     display: flex;
     order: 4;
@@ -34,12 +34,12 @@ header{
     height: auto;
     position: relative;
   }
-  
+
   nav ul li img{
     height: 50%;
     width: 10%;
   }
-  
+
   nav ul li ul{
     display: none;
     position: absolute;
@@ -47,23 +47,23 @@ header{
     margin: 0px;
     background-color: #2a7a78;
   }
-  
+
   nav ul li{
     position: relative;
     list-style-type: none;
     align-items: flex-end;
   }
-  
+
   nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
   }
-  
+
   nav ul li:hover ul{
     display: block;
   }
-  
+
   nav ul li ul li{
     display: block;
     text-decoration: none;
@@ -72,50 +72,49 @@ header{
     border-style: solid;
     border-width: 1px;
   }
-  
+
   nav ul li ul li a{
     text-decoration: none;
     color: white;
   }
-  
+
   nav ul li ul li:hover{
     background-color: #74c7b9;
   }
-  
+
   form{
     order: 3;
     width: 32%;
     border: none;
     font-size: 17px;
   }
-  
+
   #mySearch{
     width: 70%;
     height: 30px;
   }
-  
+
   body{
     margin: 0;
   }
-  
+
   footer{
     background-color: rgba(42, 122, 120, 1);
-    box-shadow: 0 50vh 0 50vh rgba(42, 122, 120, 1);
     border-style: solid;
     border-width: 1px;
   }
-  
+
   footer p{
     margin: 0px;
   }
-  
+
   section{
    display: flex;
    border-width: 0px;
    justify-content: space-around;
    background-color:#292f33d4;
   }
-  
+
   article{
     display: flex;
     border-style: solid;
@@ -124,14 +123,14 @@ header{
     background-color: white;
     margin: 0.5%;
   }
-  
+
   #tabell{
     order: 1;
     width: 32%;
     border-radius: 1%;
     justify-content: center;
   }
-  
+
   #kampoppsett{
     order: 2;
     width: 32%;
@@ -140,17 +139,17 @@ header{
     max-height: 900px;
     overflow-y: scroll;
   }
-  
+
   #twitter{
     order: 3;
     width: 32%;
     border-radius: 1%;
   }
-  
+
   .LECtabell{
     width: 100%;
   }
-  
+
   table{
     border-collapse: collapse;
     border-style: solid;
@@ -160,11 +159,11 @@ header{
     margin: auto;
     max-width: 100%;
     }
-  
+
   th, td {
     padding: 1.3em;
   }
-  
+
   .tabellhead{
     border-style: solid;
     border-width: 1px;
@@ -172,58 +171,58 @@ header{
     background-color: #2e3338;
     color: white;
   }
-  
+
   h6{
     width: 80%;
     margin: auto;
   }
-  
+
   .Rel td{
     color: red;
   }
-  
+
   .Rel:hover{
     outline-style: solid;
     outline-color: red;
     outline-width: 1px;
     outline-offset: -1px;
   }
-  
+
   .Playoff:hover{
     outline-style: solid;
     outline-color: black;
     outline-width: 1px;
     outline-offset: -1px;
   }
-  
+
   .collapsible{
     display: flex;
-    width: 100%; 
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #F2F3F4;
     cursor: pointer;
   }
-  
+
   button img{
-    width: 5%; 
+    width: 5%;
     height: auto;
     order: 1;
     align-items: flex-start;
   }
-  
+
   button h4{
     order: 2;
     width: 95%;
     margin: 3%;
   }
-  
+
   .Kamper{
     background-color: #f2F3f4;
     width: auto;
     border-width: 0px;
-    justify-content: center;  
+    justify-content: center;
     display: flex;
     flex-direction: row;
     font-family: serif;
@@ -232,7 +231,7 @@ header{
   a{
     text-decoration: none;
   }
-  
+
   .Kamper:hover{
     border-style: solid;
     border-width: 1px;
@@ -242,17 +241,17 @@ header{
   .Kamper h5{
     color: black;
   }
-  
+
   h2{
     text-align: center;
   }
-  
+
   .Lol{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     margin-bottom: 1%;
   }
-  
+
   .Lol p{
     margin: 4.5%;
   }
