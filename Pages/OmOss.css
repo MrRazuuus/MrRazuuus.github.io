@@ -141,3 +141,32 @@ header{
   hr{
   margin: 5%;
   }
+
+  .team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2%;
+    background-color: #f2f3f4;
+  }
+
+  .teamfakta{
+    order: 1;
+    width: 100%;
+    margin-left: 10%;
+  }
+
+.team img{
+  order: 2;
+  margin-right: 10%;
+  width: 30%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}

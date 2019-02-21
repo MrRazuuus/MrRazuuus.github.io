@@ -208,7 +208,7 @@ h6{
 
 .collapsible{
   display: flex;
-  width: 100%; 
+  width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -216,14 +216,14 @@ h6{
   cursor: pointer;
 }
 
-button img{
-  width: 5%; 
+.collapsible img{
+  width: 5%;
   height: auto;
   order: 1;
   align-items: flex-start;
 }
 
-button h4{
+.collapsible h4{
   order: 2;
   width: 95%;
   margin: 3%;
@@ -233,7 +233,7 @@ button h4{
   background-color: #f2F3f4;
   width: auto;
   border-width: 0px;
-  justify-content: center;  
+  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -264,7 +264,7 @@ h2{
 
 .Lol{
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   margin-bottom: 1%;
 }
 
