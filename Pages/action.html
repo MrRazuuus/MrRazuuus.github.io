@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="action.css" type="text/css">
+  <link rel="shortcut icon" href="../Pictures/HeadLogoSBLive.ico" />
+  <script src="validator.js"></script>
+  <title>Kontaktskjema - SBLive</title>
+</head>
+
+<body>
+
+  <header>
+
+    <img src="../Pictures/LogoSBLive.png" alt="Logo" class="Logo">
+
+    <h1><a href="../index.html"> ScoreBoard Live! </a></h1>
+
+
+    <nav class="dropdown">
+      <ul>
+        <li><a href=""> For mere </a><img src="../Pictures/dropdownbox.png" alt="DROPDOWN" class="dropdownimg"
+            width="10%" style="vertical-align:middle">
+          <ul>
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="#">Kontaktskjema</a></li>
+            <li><a href="UO.html">Ukentlig Oddstips</a></li>
+            <li><a href="OmOss.html">Om Oss</a></li>
+            <li><a href="Lagene.html">Lagene</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+    <form class="search">
+      <input type="search" id="mySearch" name="searchengine" placeholder="Search the site...">
+      <button>Search</button>
+    </form>
+  </header>
+
+
+  <div class="kontaktskjema">
+
+      <h3>Kontaktskjema:</h3>
+
+      <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <label for="fnavn">Fornavn:</label>
+      <input type="text" name="fnavn" placeholder="Ditt fornavn..">
+
+      <label for="enavn">Etternavn:</label>
+      <input type="text" name="enavn" placeholder="Ditt etternavn..">
+
+      <label for="Alder">Alder</label>
+      <select id="Alder" name="Alder">
+        <option value="Under 18">Under 18</option>
+        <option value="Mellom 18 og 30">Mellom 18 og 30</option>
+        <option value="Over 30">Over 30</option>
+      </select>
+
+      <label for="Kjønn">Kjønn</label>
+      <select id="Kjønn" name="Kjønn">
+        <option value="Mann">Mann</option>
+        <option value="Kvinne">Kvinne</option>
+        <option value="Velger å ikke oppgi">Velger å ikke oppgi</option>
+      </select>
+
+      <label for="Kommentar">Kommentar</label>
+
+      <input type="text" name="comment" placeholder="Hva har du å si?">
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+  <footer>
+      <small>&copy; 2019 ScoreBoard Live - All Rights Reserved.</small>
+    </footer>
+
+</body>
+
+</html>
