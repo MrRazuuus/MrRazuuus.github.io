@@ -99,6 +99,7 @@ header{
   }
 
   .kontaktskjema{
+    min-height: 540px;
       max-width: 750px;
       margin: auto;
       border-radius: 5px;
@@ -108,19 +109,24 @@ header{
   }
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 24px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
     resize: vertical;
+}
+
+select {
+  height: 40px;
+  border: 1px solid #ccc;
 }
 
 * {box-sizing: border-box;}
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #297977;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -129,9 +135,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #73c7b9;
 }
-
 
 footer{
     padding: 10px;

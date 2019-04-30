@@ -7,11 +7,11 @@ function validateForm() {
       return false;
     }
     else if (y == ""){
-      alert("Du må ha lagt til et fornavn");
+      alert ("Du må ha lagt til et fornavn");
       return false;
     }
     else if (z == ""){
-      alert("Du må ha lagt til et etternavn");
+      alert ("Du må ha lagt til et etternavn");
       return false;
     }
   }
